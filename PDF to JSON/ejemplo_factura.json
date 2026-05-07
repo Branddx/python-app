@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "archivo": "ejemplo_factura.pdf",
+    "procesado_en": "2026-05-06T15:50:06",
+    "paginas": 1
+  },
+  "comprobante": {
+    "fecha_emision": "2026-06-20",
+    "numero_factura": "10879645"
+  },
+  "emisor": {
+    "direccion": "Av. Universitaria 123",
+    "ciudad": "Puerto Maldonado",
+    "telefono": "945906029",
+    "email": "compras.puerto@gmail.com",
+    "nombre": "SU EMPRESA"
+  },
+  "cliente": {
+    "direccion": "Av. Ejercito 589",
+    "ciudad": "Cercado de Lima",
+    "telefono": "987630546",
+    "email": "Inmuebles.Lima@gmail.com"
+  },
+  "items": [
+    {
+      "cantidad": 2.0,
+      "descripcion": "Lapiceros",
+      "precio_unitario": 2.0,
+      "total_linea": 2.2
+    },
+    {
+      "cantidad": 3.0,
+      "descripcion": "Cuadernos anillados",
+      "precio_unitario": 5.0,
+      "total_linea": 5.8
+    },
+    {
+      "cantidad": 5.0,
+      "descripcion": "Sillas",
+      "precio_unitario": 100.0,
+      "total_linea": 105.3
+    },
+    {
+      "cantidad": 1.0,
+      "descripcion": "Computadora de escritorio",
+      "precio_unitario": 2500.0,
+      "total_linea": 2650.0
+    }
+  ],
+  "totales": {
+    "moneda": "€",
+    "subtotal": 2763.3,
+    "impuesto_sobre_ventas": 497.39,
+    "total": 3260.69
+  }
+}
